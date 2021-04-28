@@ -1,7 +1,6 @@
-/* js-lista-cognomi
-Consegna:
+//js-lista-cognomi
+//Consegna:
 
-*/
 //1. chiedi all'utente il cognome
 
 var cognomeUtente = (prompt('digita il tuo cognome'));
