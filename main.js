@@ -17,7 +17,13 @@ listaCognomi.push(cognomeUtente);
 
 //3. stampa la lista ordinata alfabeticamente
 
-console.log(listaCognomi.sort());
+var cognomiOrdinati = (listaCognomi.sort());
+var listElement = document.getElementById("lista").innerHTML;
+for (let i = 0; i < cognomiOrdinati.length; i++) {
+    const element = cognomiOrdinati[i];
+    document.getElementById('lista').insertAdjacentHTML('beforeend', '<li>' + element + '</li>')
+    
+}
 
 //4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova */
 
